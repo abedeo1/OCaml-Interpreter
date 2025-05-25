@@ -27,7 +27,7 @@ type stackValue =
   | STRING of string
   | NAME of string
   | UNIT
-
+```
 
 
 ## Input Format  
@@ -50,11 +50,11 @@ push 3
 sub
 println
 quit
-
+```
 Example output 1:
 ```plaintext
 17
-
+```
 Example input 2:
 ```plaintext
 push 5
@@ -65,11 +65,11 @@ push 3
 add
 println
 quit
-
+```
 Example output 2:
 ```plaintext
 8
-
+```
 
 ## Testing  
 
