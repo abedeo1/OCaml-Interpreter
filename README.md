@@ -19,7 +19,7 @@ The interpreter supports various stack operations including:
 
 Each command operates on a stack of values, which can be:
 
-
+```plaintext
 type stackValue =
   | BOOL of bool
   | INT of int
@@ -42,6 +42,7 @@ Input files must contain one command per line. Supported inputs include:
 
 
 Example input 1:
+```plaintext
 push 10
 push 2
 mul
@@ -51,9 +52,11 @@ println
 quit
 
 Example output 1:
+```plaintext
 17
 
 Example input 2:
+```plaintext
 push 5
 push x
 bind
@@ -64,6 +67,7 @@ println
 quit
 
 Example output 2:
+```plaintext
 8
 
 
